@@ -16,6 +16,15 @@
   "name": "Lemon",
   "files": [
     {
+      "projectID": 71738,
+      "fileID": 4085846,
+      "required": true,
+      "__meta": {
+        "name": "ShetiPhianCore",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 225738,
       "fileID": 3820503,
       "required": true,
@@ -45,6 +54,17 @@
       "required": true,
       "__meta": {
         "name": "Just Enough Items (JEI)"
+      }
+    },
+    {
+      "projectID": 241895,
+      "fileID": 3830926,
+      "required": true,
+      "__meta": {
+        "name": "KleeSlabs",
+        "dependencies": [
+          531761
+        ]
       }
     },
     {
@@ -111,6 +131,14 @@
       }
     },
     {
+      "projectID": 316582,
+      "fileID": 3829457,
+      "required": true,
+      "__meta": {
+        "name": "Corpse"
+      }
+    },
+    {
       "projectID": 328085,
       "fileID": 4174329,
       "required": true,
@@ -119,6 +147,54 @@
         "dependencies": [
           486392
         ]
+      }
+    },
+    {
+      "projectID": 348521,
+      "fileID": 3972426,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (Fabric/Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 353942,
+      "fileID": 3969644,
+      "required": true,
+      "__meta": {
+        "name": "Snow Under Trees"
+      }
+    },
+    {
+      "projectID": 363535,
+      "fileID": 4311717,
+      "required": true,
+      "__meta": {
+        "name": "EnderChests",
+        "dependencies": [
+          71738
+        ]
+      }
+    },
+    {
+      "projectID": 377798,
+      "fileID": 3749502,
+      "required": true,
+      "__meta": {
+        "name": "The Conjurer",
+        "dependencies": [
+          378802
+        ]
+      }
+    },
+    {
+      "projectID": 378802,
+      "fileID": 4018606,
+      "required": true,
+      "__meta": {
+        "name": "Structure Gel API",
+        "explicit": false
       }
     },
     {
@@ -153,6 +229,14 @@
       }
     },
     {
+      "projectID": 396019,
+      "fileID": 4300715,
+      "required": true,
+      "__meta": {
+        "name": "Save Your Pets"
+      }
+    },
+    {
       "projectID": 404465,
       "fileID": 4210935,
       "required": true,
@@ -173,6 +257,14 @@
         "dependencies": [
           499980
         ]
+      }
+    },
+    {
+      "projectID": 418514,
+      "fileID": 3934447,
+      "required": true,
+      "__meta": {
+        "name": "Connectible Chains [FORGE]"
       }
     },
     {
@@ -207,6 +299,17 @@
       "required": true,
       "__meta": {
         "name": "Auto Planting Forests"
+      }
+    },
+    {
+      "projectID": 461822,
+      "fileID": 3614629,
+      "required": true,
+      "__meta": {
+        "name": "Stoneholm, Underground Villages (Forge)",
+        "dependencies": [
+          348521
+        ]
       }
     },
     {
@@ -267,6 +370,17 @@
       }
     },
     {
+      "projectID": 531834,
+      "fileID": 3806807,
+      "required": true,
+      "__meta": {
+        "name": "Create Confectionery",
+        "dependencies": [
+          328085
+        ]
+      }
+    },
+    {
       "projectID": 551736,
       "fileID": 3817266,
       "required": true,
@@ -312,6 +426,17 @@
         "name": "YUNG's Better Ocean Monuments (Forge)",
         "dependencies": [
           421850
+        ]
+      }
+    },
+    {
+      "projectID": 715294,
+      "fileID": 4134603,
+      "required": true,
+      "__meta": {
+        "name": "Create: Mounted Storages",
+        "dependencies": [
+          328085
         ]
       }
     }
