@@ -1,0 +1,51 @@
+{
+  "minecraft": {
+    "version": "1.18.2",
+    "modLoaders": [
+      {
+        "id": "forge-40.2.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "0.0.1",
+  "author": "cosc",
+  "name": "Lemon",
+  "files": [
+    {
+      "projectID": 238222,
+      "fileID": 4062344,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)"
+      }
+    },
+    {
+      "projectID": 248787,
+      "fileID": 3927564,
+      "required": true,
+      "__meta": {
+        "name": "AppleSkin"
+      }
+    },
+    {
+      "projectID": 250398,
+      "fileID": 3950209,
+      "required": true,
+      "__meta": {
+        "name": "Controlling"
+      }
+    },
+    {
+      "projectID": 256717,
+      "fileID": 4153344,
+      "required": true,
+      "__meta": {
+        "name": "Clumps"
+      }
+    }
+  ]
+}
