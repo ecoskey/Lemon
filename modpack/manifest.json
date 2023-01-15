@@ -237,15 +237,6 @@
       }
     },
     {
-      "projectID": 348521,
-      "fileID": 3972426,
-      "required": true,
-      "__meta": {
-        "name": "Cloth Config API (Fabric/Forge)",
-        "explicit": false
-      }
-    },
-    {
       "projectID": 350464,
       "fileID": 3707479,
       "required": true,
@@ -536,17 +527,6 @@
       "required": true,
       "__meta": {
         "name": "Auto Planting Forests"
-      }
-    },
-    {
-      "projectID": 461822,
-      "fileID": 3614629,
-      "required": true,
-      "__meta": {
-        "name": "Stoneholm, Underground Villages (Forge)",
-        "dependencies": [
-          348521
-        ]
       }
     },
     {
