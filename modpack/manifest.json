@@ -88,6 +88,17 @@
       }
     },
     {
+      "projectID": 245755,
+      "fileID": 3830849,
+      "required": true,
+      "__meta": {
+        "name": "Waystones",
+        "dependencies": [
+          531761
+        ]
+      }
+    },
+    {
       "projectID": 248787,
       "fileID": 3927564,
       "required": true,
@@ -285,6 +296,14 @@
       }
     },
     {
+      "projectID": 392805,
+      "fileID": 3826151,
+      "required": true,
+      "__meta": {
+        "name": "CleanCut"
+      }
+    },
+    {
       "projectID": 404465,
       "fileID": 4210935,
       "required": true,
@@ -369,6 +388,14 @@
       }
     },
     {
+      "projectID": 444013,
+      "fileID": 3694075,
+      "required": true,
+      "__meta": {
+        "name": "Auto Planting Forests"
+      }
+    },
+    {
       "projectID": 438003,
       "fileID": 3881523,
       "required": true,
@@ -444,6 +471,15 @@
       "required": true,
       "__meta": {
         "name": "Starlight (Forge)"
+      }
+    },
+    {
+      "projectID": 531761,
+      "fileID": 4162605,
+      "required": true,
+      "__meta": {
+        "name": "Balm (Forge Edition)",
+        "explicit": false
       }
     },
     {
