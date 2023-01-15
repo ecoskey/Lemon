@@ -32,6 +32,14 @@
       }
     },
     {
+      "projectID": 237701,
+      "fileID": 4120081,
+      "required": true,
+      "__meta": {
+        "name": "ReAuth"
+      }
+    },
+    {
       "projectID": 238222,
       "fileID": 4062344,
       "required": true,
@@ -40,11 +48,31 @@
       }
     },
     {
+      "projectID": 243121,
+      "fileID": 3840125,
+      "required": true,
+      "__meta": {
+        "name": "Quark",
+        "dependencies": [
+          250363
+        ]
+      }
+    },
+    {
       "projectID": 248787,
       "fileID": 3927564,
       "required": true,
       "__meta": {
         "name": "AppleSkin"
+      }
+    },
+    {
+      "projectID": 250363,
+      "fileID": 3642382,
+      "required": true,
+      "__meta": {
+        "name": "AutoRegLib",
+        "explicit": false
       }
     },
     {
@@ -95,6 +123,17 @@
       }
     },
     {
+      "projectID": 389665,
+      "fileID": 3855186,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Better Mineshafts (Forge)",
+        "dependencies": [
+          421850
+        ]
+      }
+    },
+    {
       "projectID": 404465,
       "fileID": 4210935,
       "required": true,
@@ -127,11 +166,31 @@
       }
     },
     {
+      "projectID": 421850,
+      "fileID": 4178547,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's API (Forge)",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 429235,
       "fileID": 4074294,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
+      }
+    },
+    {
+      "projectID": 465575,
+      "fileID": 3778231,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Better Strongholds (Forge)",
+        "dependencies": [
+          421850
+        ]
       }
     },
     {
@@ -150,6 +209,74 @@
       "__meta": {
         "name": "Moonlight Lib",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 510089,
+      "fileID": 3777934,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Better Dungeons (Forge)",
+        "dependencies": [
+          421850
+        ]
+      }
+    },
+    {
+      "projectID": 526854,
+      "fileID": 3706539,
+      "required": true,
+      "__meta": {
+        "name": "Starlight (Forge)"
+      }
+    },
+    {
+      "projectID": 551736,
+      "fileID": 3817266,
+      "required": true,
+      "__meta": {
+        "name": "Magnesium/Rubidium Dynamic Lights"
+      }
+    },
+    {
+      "projectID": 558905,
+      "fileID": 3936081,
+      "required": true,
+      "__meta": {
+        "name": "Magnesium/Rubidium Extras",
+        "dependencies": [
+          574856
+        ]
+      }
+    },
+    {
+      "projectID": 574856,
+      "fileID": 4024781,
+      "required": true,
+      "__meta": {
+        "name": "Rubidium"
+      }
+    },
+    {
+      "projectID": 631016,
+      "fileID": 3950598,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Better Desert Temples (Forge)",
+        "dependencies": [
+          421850
+        ]
+      }
+    },
+    {
+      "projectID": 689238,
+      "fileID": 4032731,
+      "required": true,
+      "__meta": {
+        "name": "YUNG's Better Ocean Monuments (Forge)",
+        "dependencies": [
+          421850
+        ]
       }
     }
   ]
