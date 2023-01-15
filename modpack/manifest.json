@@ -33,6 +33,23 @@
       }
     },
     {
+      "projectID": 225781,
+      "fileID": 4121405,
+      "required": true,
+      "__meta": {
+        "name": "TellMe"
+      }
+    },
+    {
+      "projectID": 228525,
+      "fileID": 4064971,
+      "required": true,
+      "__meta": {
+        "name": "Bookshelf",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 233019,
       "fileID": 4019126,
       "required": true,
@@ -64,6 +81,18 @@
         "name": "KleeSlabs",
         "dependencies": [
           531761
+        ]
+      }
+    },
+    {
+      "projectID": 240630,
+      "fileID": 3831559,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Resources (JER)",
+        "dependencies": [
+          238222,
+          238222
         ]
       }
     },
@@ -115,11 +144,42 @@
       }
     },
     {
+      "projectID": 250419,
+      "fileID": 4277221,
+      "required": true,
+      "__meta": {
+        "name": "Enchantment Descriptions",
+        "dependencies": [
+          228525,
+          228525
+        ]
+      }
+    },
+    {
       "projectID": 256717,
       "fileID": 4153344,
       "required": true,
       "__meta": {
         "name": "Clumps"
+      }
+    },
+    {
+      "projectID": 265917,
+      "fileID": 3812175,
+      "required": true,
+      "__meta": {
+        "name": "JEI Integration",
+        "dependencies": [
+          238222
+        ]
+      }
+    },
+    {
+      "projectID": 272578,
+      "fileID": 4262403,
+      "required": true,
+      "__meta": {
+        "name": "Bounding Box Outline Reloaded"
       }
     },
     {
@@ -136,6 +196,14 @@
       "required": true,
       "__meta": {
         "name": "Corpse"
+      }
+    },
+    {
+      "projectID": 324717,
+      "fileID": 4082408,
+      "required": true,
+      "__meta": {
+        "name": "Jade 🔍"
       }
     },
     {
@@ -198,6 +266,89 @@
       }
     },
     {
+      "projectID": 337396,
+      "fileID": 3881525,
+      "required": true,
+      "__meta": {
+        "name": "Boatload",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
+      "projectID": 350464,
+      "fileID": 3707479,
+      "required": true,
+      "__meta": {
+        "name": "Chimes"
+      }
+    },
+    {
+      "projectID": 355458,
+      "fileID": 3881526,
+      "required": true,
+      "__meta": {
+        "name": "Buzzier Bees",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
+      "projectID": 355589,
+      "fileID": 3881524,
+      "required": true,
+      "__meta": {
+        "name": "Berry Good",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
+      "projectID": 361718,
+      "fileID": 3898465,
+      "required": true,
+      "__meta": {
+        "name": "Incubation",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
+      "projectID": 381736,
+      "fileID": 3881530,
+      "required": true,
+      "__meta": {
+        "name": "Savage & Ravage",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
+      "projectID": 382016,
+      "fileID": 3881528,
+      "required": true,
+      "__meta": {
+        "name": "Neapolitan",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
+      "projectID": 382216,
+      "fileID": 3991478,
+      "required": true,
+      "__meta": {
+        "name": "Blueprint",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 386134,
       "fileID": 4216216,
       "required": true,
@@ -249,6 +400,22 @@
       }
     },
     {
+      "projectID": 408759,
+      "fileID": 3776203,
+      "required": true,
+      "__meta": {
+        "name": "Windowlogging"
+      }
+    },
+    {
+      "projectID": 411705,
+      "fileID": 3598216,
+      "required": true,
+      "__meta": {
+        "name": "Damage Tilt"
+      }
+    },
+    {
       "projectID": 412082,
       "fileID": 4216131,
       "required": true,
@@ -265,6 +432,25 @@
       "required": true,
       "__meta": {
         "name": "Connectible Chains [FORGE]"
+      }
+    },
+    {
+      "projectID": 414154,
+      "fileID": 3752414,
+      "required": true,
+      "__meta": {
+        "name": "Skinned Lanterns (Forge)"
+      }
+    },
+    {
+      "projectID": 415974,
+      "fileID": 3881529,
+      "required": true,
+      "__meta": {
+        "name": "Personality",
+        "dependencies": [
+          382216
+        ]
       }
     },
     {
@@ -313,6 +499,25 @@
       }
     },
     {
+      "projectID": 438003,
+      "fileID": 3881523,
+      "required": true,
+      "__meta": {
+        "name": "Allurement",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
+      "projectID": 441114,
+      "fileID": 4018073,
+      "required": true,
+      "__meta": {
+        "name": "Neko's Enchanted Books"
+      }
+    },
+    {
       "projectID": 465575,
       "fileID": 3778231,
       "required": true,
@@ -353,6 +558,17 @@
       }
     },
     {
+      "projectID": 515708,
+      "fileID": 4326917,
+      "required": true,
+      "__meta": {
+        "name": "Paxi (Forge)",
+        "dependencies": [
+          421850
+        ]
+      }
+    },
+    {
       "projectID": 526854,
       "fileID": 3706539,
       "required": true,
@@ -381,6 +597,25 @@
       }
     },
     {
+      "projectID": 532286,
+      "fileID": 3820697,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Effect Descriptions (JEED)"
+      }
+    },
+    {
+      "projectID": 543610,
+      "fileID": 4023078,
+      "required": true,
+      "__meta": {
+        "name": "Woodworks",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
       "projectID": 551736,
       "fileID": 3817266,
       "required": true,
@@ -405,6 +640,14 @@
       "required": true,
       "__meta": {
         "name": "Rubidium"
+      }
+    },
+    {
+      "projectID": 577252,
+      "fileID": 3723161,
+      "required": true,
+      "__meta": {
+        "name": "Moyai"
       }
     },
     {
