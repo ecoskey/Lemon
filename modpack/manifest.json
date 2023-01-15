@@ -16,6 +16,22 @@
   "name": "Lemon",
   "files": [
     {
+      "projectID": 225738,
+      "fileID": 3820503,
+      "required": true,
+      "__meta": {
+        "name": "MmmMmmMmmMmm (Target Dummy)"
+      }
+    },
+    {
+      "projectID": 233019,
+      "fileID": 4019126,
+      "required": true,
+      "__meta": {
+        "name": "AI Improvements"
+      }
+    },
+    {
       "projectID": 238222,
       "fileID": 4062344,
       "required": true,
@@ -45,6 +61,95 @@
       "required": true,
       "__meta": {
         "name": "Clumps"
+      }
+    },
+    {
+      "projectID": 280510,
+      "fileID": 3801087,
+      "required": true,
+      "__meta": {
+        "name": "AttributeFix"
+      }
+    },
+    {
+      "projectID": 328085,
+      "fileID": 4174329,
+      "required": true,
+      "__meta": {
+        "name": "Create",
+        "dependencies": [
+          486392
+        ]
+      }
+    },
+    {
+      "projectID": 386134,
+      "fileID": 4216216,
+      "required": true,
+      "__meta": {
+        "name": "FTB Ultimine (Forge)",
+        "dependencies": [
+          404465,
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 404465,
+      "fileID": 4210935,
+      "required": true,
+      "__meta": {
+        "name": "FTB Library (Forge)",
+        "explicit": false,
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 412082,
+      "fileID": 4216131,
+      "required": true,
+      "__meta": {
+        "name": "Supplementaries",
+        "dependencies": [
+          499980
+        ]
+      }
+    },
+    {
+      "projectID": 419699,
+      "fileID": 4147231,
+      "required": true,
+      "__meta": {
+        "name": "Architectury API (Fabric/Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 429235,
+      "fileID": 4074294,
+      "required": true,
+      "__meta": {
+        "name": "FerriteCore (Forge)"
+      }
+    },
+    {
+      "projectID": 486392,
+      "fileID": 4174748,
+      "required": true,
+      "__meta": {
+        "name": "Flywheel",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 499980,
+      "fileID": 3842421,
+      "required": true,
+      "__meta": {
+        "name": "Moonlight Lib",
+        "explicit": false
       }
     }
   ]
