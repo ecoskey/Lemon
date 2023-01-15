@@ -254,6 +254,14 @@
       }
     },
     {
+      "projectID": 351725,
+      "fileID": 4178158,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Bridges"
+      }
+    },
+    {
       "projectID": 353942,
       "fileID": 3969644,
       "required": true,
@@ -314,6 +322,14 @@
         "dependencies": [
           378802
         ]
+      }
+    },
+    {
+      "projectID": 378646,
+      "fileID": 3930974,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Doors"
       }
     },
     {
@@ -393,6 +409,14 @@
       "required": true,
       "__meta": {
         "name": "Save Your Pets"
+      }
+    },
+    {
+      "projectID": 400933,
+      "fileID": 4181456,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Trapdoors"
       }
     },
     {
