@@ -207,6 +207,22 @@
       }
     },
     {
+      "projectID": 300297,
+      "fileID": 3982209,
+      "required": true,
+      "__meta": {
+        "name": "Project: Vibrant Journeys"
+      }
+    },
+    {
+      "projectID": 312039,
+      "fileID": 3934851,
+      "required": true,
+      "__meta": {
+        "name": "Puddles"
+      }
+    },
+    {
       "projectID": 316582,
       "fileID": 3829457,
       "required": true,
@@ -242,6 +258,14 @@
         "dependencies": [
           382216
         ]
+      }
+    },
+    {
+      "projectID": 348521,
+      "fileID": 3972426,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (Fabric/Forge)"
       }
     },
     {
@@ -423,6 +447,17 @@
       }
     },
     {
+      "projectID": 406825,
+      "fileID": 3999558,
+      "required": true,
+      "__meta": {
+        "name": "Unearthed",
+        "dependencies": [
+          609850
+        ]
+      }
+    },
+    {
       "projectID": 408759,
       "fileID": 3776203,
       "required": true,
@@ -436,6 +471,14 @@
       "required": true,
       "__meta": {
         "name": "Damage Tilt"
+      }
+    },
+    {
+      "projectID": 411816,
+      "fileID": 4082889,
+      "required": true,
+      "__meta": {
+        "name": "Simple Discord RPC [Forge/Fabric/Quilt]"
       }
     },
     {
@@ -692,6 +735,15 @@
       "required": true,
       "__meta": {
         "name": "Moyai"
+      }
+    },
+    {
+      "projectID": 609850,
+      "fileID": 3748968,
+      "required": true,
+      "__meta": {
+        "name": "Hyle",
+        "explicit": false
       }
     },
     {
