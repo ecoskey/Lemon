@@ -67,7 +67,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 4062344,
+      "fileID": 4352925,
       "required": true,
       "__meta": {
         "name": "Just Enough Items (JEI)"
@@ -791,7 +791,7 @@
     },
     {
       "projectID": 686100,
-      "fileID": 4187312,
+      "fileID": 4355197,
       "required": true,
       "__meta": {
         "name": "Create Mechanical Extruder",
