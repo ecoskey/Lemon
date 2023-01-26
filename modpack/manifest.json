@@ -239,6 +239,17 @@
       }
     },
     {
+      "projectID": 326895,
+      "fileID": 4365140,
+      "required": true,
+      "__meta": {
+        "name": "Upgrade Aquatic",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
       "projectID": 328085,
       "fileID": 4341477,
       "required": true,
@@ -333,6 +344,17 @@
         "name": "EnderChests",
         "dependencies": [
           71738
+        ]
+      }
+    },
+    {
+      "projectID": 365045,
+      "fileID": 4365141,
+      "required": true,
+      "__meta": {
+        "name": "Autumnity",
+        "dependencies": [
+          382216
         ]
       }
     },
@@ -665,7 +687,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 4162605,
+      "fileID": 4361371,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)",
