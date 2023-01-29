@@ -768,6 +768,17 @@
       }
     },
     {
+      "projectID": 583345,
+      "fileID": 4085908,
+      "required": true,
+      "__meta": {
+        "name": "Jade Addons (Forge)",
+        "dependencies": [
+          324717
+        ]
+      }
+    },
+    {
       "projectID": 609850,
       "fileID": 3748968,
       "required": true,
@@ -801,6 +812,17 @@
       "required": true,
       "__meta": {
         "name": "Create Mechanical Extruder",
+        "dependencies": [
+          328085
+        ]
+      }
+    },
+    {
+      "projectID": 688768,
+      "fileID": 4365746,
+      "required": true,
+      "__meta": {
+        "name": "Create Enchantment Industry",
         "dependencies": [
           328085
         ]
