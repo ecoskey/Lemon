@@ -219,6 +219,18 @@
       }
     },
     {
+      "projectID": 301051,
+      "fileID": 3575623,
+      "required": true,
+      "__meta": {
+        "name": "Quark Oddities",
+        "dependencies": [
+          243121,
+          250363
+        ]
+      }
+    },
+    {
       "projectID": 312039,
       "fileID": 3934851,
       "required": true,
