@@ -109,7 +109,7 @@
     },
     {
       "projectID": 245028,
-      "fileID": 3756959,
+      "fileID": 4367960,
       "required": true,
       "__meta": {
         "name": "Tumbleweed"
@@ -243,7 +243,7 @@
     },
     {
       "projectID": 328085,
-      "fileID": 4341477,
+      "fileID": 4371807,
       "required": true,
       "__meta": {
         "name": "Create",
@@ -329,6 +329,17 @@
       }
     },
     {
+      "projectID": 362393,
+      "fileID": 4367068,
+      "required": true,
+      "__meta": {
+        "name": "Atmospheric",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
       "projectID": 363535,
       "fileID": 4311717,
       "required": true,
@@ -363,7 +374,7 @@
     },
     {
       "projectID": 378646,
-      "fileID": 3930974,
+      "fileID": 4381503,
       "required": true,
       "__meta": {
         "name": "Macaw's Doors"
@@ -418,6 +429,17 @@
         "dependencies": [
           404465,
           419699
+        ]
+      }
+    },
+    {
+      "projectID": 388992,
+      "fileID": 4381294,
+      "required": true,
+      "__meta": {
+        "name": "Environmental",
+        "dependencies": [
+          382216
         ]
       }
     },
@@ -527,7 +549,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4332099,
+      "fileID": 4372207,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -707,7 +729,7 @@
     },
     {
       "projectID": 543610,
-      "fileID": 4023078,
+      "fileID": 4381280,
       "required": true,
       "__meta": {
         "name": "Woodworks",
@@ -779,6 +801,17 @@
       }
     },
     {
+      "projectID": 592162,
+      "fileID": 4380997,
+      "required": true,
+      "__meta": {
+        "name": "Clayworks",
+        "dependencies": [
+          382216
+        ]
+      }
+    },
+    {
       "projectID": 609850,
       "fileID": 3748968,
       "required": true,
@@ -808,7 +841,7 @@
     },
     {
       "projectID": 686100,
-      "fileID": 4355197,
+      "fileID": 4379728,
       "required": true,
       "__meta": {
         "name": "Create Mechanical Extruder",
@@ -819,7 +852,7 @@
     },
     {
       "projectID": 688768,
-      "fileID": 4365746,
+      "fileID": 4373326,
       "required": true,
       "__meta": {
         "name": "Create Enchantment Industry",
