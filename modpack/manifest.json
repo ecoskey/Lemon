@@ -615,6 +615,18 @@
       }
     },
     {
+      "projectID": 429371,
+      "fileID": 3923657,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS Create",
+        "dependencies": [
+          328085,
+          238086
+        ]
+      }
+    },
+    {
       "projectID": 438003,
       "fileID": 3881523,
       "required": true,
