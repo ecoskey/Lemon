@@ -25,7 +25,7 @@
 	#Enable generation of beach grass
 	enableBeachGrass = true
 	#Enable generation of bark mushrooms
-	enableBarkMushrooms = false
+	enableBarkMushrooms = true
 	#Enable generation of glowcap
 	enableGlowcap = false
 	#Enable generation of cindercane
