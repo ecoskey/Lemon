@@ -488,7 +488,7 @@
     },
     {
       "projectID": 404465,
-      "fileID": 4210935,
+      "fileID": 4389069,
       "required": true,
       "__meta": {
         "name": "FTB Library (Forge)",
@@ -590,7 +590,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 4147231,
+      "fileID": 4384391,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)",
