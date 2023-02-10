@@ -367,6 +367,14 @@
       }
     },
     {
+      "projectID": 363703,
+      "fileID": 4010650,
+      "required": true,
+      "__meta": {
+        "name": "Goblin Traders"
+      }
+    },
+    {
       "projectID": 365045,
       "fileID": 4365141,
       "required": true,
@@ -446,6 +454,15 @@
           404465,
           419699
         ]
+      }
+    },
+    {
+      "projectID": 388172,
+      "fileID": 4181370,
+      "required": true,
+      "__meta": {
+        "name": "GeckoLib",
+        "explicit": false
       }
     },
     {
@@ -550,6 +567,17 @@
       "required": true,
       "__meta": {
         "name": "Skinned Lanterns (Forge)"
+      }
+    },
+    {
+      "projectID": 414401,
+      "fileID": 4361310,
+      "required": true,
+      "__meta": {
+        "name": "Creatures and Beasts",
+        "dependencies": [
+          388172
+        ]
       }
     },
     {
@@ -816,6 +844,17 @@
       "required": true,
       "__meta": {
         "name": "Rubidium"
+      }
+    },
+    {
+      "projectID": 574913,
+      "fileID": 3972165,
+      "required": true,
+      "__meta": {
+        "name": "Critters and Companions",
+        "dependencies": [
+          388172
+        ]
       }
     },
     {
