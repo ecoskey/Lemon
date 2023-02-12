@@ -823,6 +823,17 @@
       }
     },
     {
+      "projectID": 561625,
+      "fileID": 4063132,
+      "required": true,
+      "__meta": {
+        "name": "Creeper Overhaul",
+        "dependencies": [
+          388172
+        ]
+      }
+    },
+    {
       "projectID": 565254,
       "fileID": 4364575,
       "required": true,
@@ -913,6 +924,14 @@
       "required": true,
       "__meta": {
         "name": "Galosphere"
+      }
+    },
+    {
+      "projectID": 636540,
+      "fileID": 3850446,
+      "required": true,
+      "__meta": {
+        "name": "Structory"
       }
     },
     {
