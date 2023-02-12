@@ -383,7 +383,7 @@
 	"Villagers Follow Emeralds" = true
 	"Vexes Die With Their Masters" = true
 	"Utility Recipes" = true
-	"Snow Golem Player Heads" = true
+	"Snow Golem Player Heads" = false
 	"Simple Harvest" = true
 	"Sign Editing" = true
 	"Replace Scaffolding" = true
