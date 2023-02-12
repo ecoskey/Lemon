@@ -17,7 +17,7 @@
   "files": [
     {
       "projectID": 71738,
-      "fileID": 4085846,
+      "fileID": 4389416,
       "required": true,
       "__meta": {
         "name": "ShetiPhianCore",
@@ -305,7 +305,7 @@
     },
     {
       "projectID": 353942,
-      "fileID": 3969644,
+      "fileID": 4390069,
       "required": true,
       "__meta": {
         "name": "Snow Under Trees"
@@ -357,13 +357,21 @@
     },
     {
       "projectID": 363535,
-      "fileID": 4311717,
+      "fileID": 4389837,
       "required": true,
       "__meta": {
         "name": "EnderChests",
         "dependencies": [
           71738
         ]
+      }
+    },
+    {
+      "projectID": 363703,
+      "fileID": 4010650,
+      "required": true,
+      "__meta": {
+        "name": "Goblin Traders"
       }
     },
     {
@@ -449,6 +457,15 @@
       }
     },
     {
+      "projectID": 388172,
+      "fileID": 4181370,
+      "required": true,
+      "__meta": {
+        "name": "GeckoLib",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 388992,
       "fileID": 4381294,
       "required": true,
@@ -488,7 +505,7 @@
     },
     {
       "projectID": 404465,
-      "fileID": 4210935,
+      "fileID": 4389069,
       "required": true,
       "__meta": {
         "name": "FTB Library (Forge)",
@@ -553,6 +570,17 @@
       }
     },
     {
+      "projectID": 414401,
+      "fileID": 4361310,
+      "required": true,
+      "__meta": {
+        "name": "Creatures and Beasts",
+        "dependencies": [
+          388172
+        ]
+      }
+    },
+    {
       "projectID": 415974,
       "fileID": 3881529,
       "required": true,
@@ -590,7 +618,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 4147231,
+      "fileID": 4384391,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)",
@@ -816,6 +844,17 @@
       "required": true,
       "__meta": {
         "name": "Rubidium"
+      }
+    },
+    {
+      "projectID": 574913,
+      "fileID": 3972165,
+      "required": true,
+      "__meta": {
+        "name": "Critters and Companions",
+        "dependencies": [
+          388172
+        ]
       }
     },
     {
