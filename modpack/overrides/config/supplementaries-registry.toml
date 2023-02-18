@@ -14,16 +14,16 @@
 
 [blocks]
 	planter = true
-	clock_block = true
+	clock_block = false
 	pedestal = true
 	wind_vane = true
 	redstone_illuminator = true
 	notice_board = true
-	crank = true
+	crank = false
 	jar = true
-	faucet = true
-	turn_table = true
-	spring_launcher = true
+	faucet = false
+	turn_table = false
+	spring_launcher = false
 	speaker_block = true
 	sign_post = true
 	hanging_sign = true
@@ -33,7 +33,7 @@
 	cage = true
 	item_shelf = true
 	sconce_lever = true
-	cog_block = true
+	cog_block = false
 	globe = true
 	hourglass = true
 	sack = true
@@ -42,8 +42,8 @@
 	copper_lantern = true
 	gold_trapdoor = true
 	gold_door = true
-	bamboo_spikes = true
-	bamboo_spikes_tipped = true
+	bamboo_spikes = false
+	bamboo_spikes_tipped = false
 	stone_lamp = true
 	end_stone_lamp = true
 	blackstone_lamp = true
@@ -54,10 +54,10 @@
 	lock_block = true
 	flax = true
 	rope = true
-	pulley_block = true
+	pulley_block = false
 	fodder = true
 	crimson_lantern = true
-	magma_cream_block = true
+	magma_cream_block = false
 	daub = true
 	wattle_and_daub = true
 	timber_frame = true
@@ -80,7 +80,7 @@
 	sugar_cube = true
 	lapis_bricks = true
 	relayer = true
-	crystal_display = true
+	crystal_display = false
 	candle_holder = true
 	silver_trapdoor = true
 	silver_door = true
@@ -96,7 +96,7 @@
 	antique_ink = true
 	shulker_shell = true
 	candy = true
-	wrench = true
+	wrench = false
 	slingshot = true
 	rope_arrow = true
 	bomb = false
