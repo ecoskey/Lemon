@@ -415,7 +415,7 @@
     },
     {
       "projectID": 381736,
-      "fileID": 3881530,
+      "fileID": 4396963,
       "required": true,
       "__meta": {
         "name": "Savage & Ravage",
@@ -505,7 +505,7 @@
     },
     {
       "projectID": 404465,
-      "fileID": 4389069,
+      "fileID": 4396792,
       "required": true,
       "__meta": {
         "name": "FTB Library (Forge)",
@@ -571,7 +571,7 @@
     },
     {
       "projectID": 414401,
-      "fileID": 4361310,
+      "fileID": 4399580,
       "required": true,
       "__meta": {
         "name": "Creatures and Beasts",
@@ -794,7 +794,7 @@
     },
     {
       "projectID": 543610,
-      "fileID": 4381280,
+      "fileID": 4396956,
       "required": true,
       "__meta": {
         "name": "Woodworks",
@@ -835,7 +835,7 @@
     },
     {
       "projectID": 565254,
-      "fileID": 4364575,
+      "fileID": 4397243,
       "required": true,
       "__meta": {
         "name": "End's Phantasm"
@@ -920,7 +920,7 @@
     },
     {
       "projectID": 631098,
-      "fileID": 4077728,
+      "fileID": 4398234,
       "required": true,
       "__meta": {
         "name": "Galosphere"
