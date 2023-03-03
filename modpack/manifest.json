@@ -17,7 +17,7 @@
   "files": [
     {
       "projectID": 71738,
-      "fileID": 4389416,
+      "fileID": 4411212,
       "required": true,
       "__meta": {
         "name": "ShetiPhianCore",
@@ -59,7 +59,7 @@
     },
     {
       "projectID": 237701,
-      "fileID": 4120081,
+      "fileID": 4408008,
       "required": true,
       "__meta": {
         "name": "ReAuth"
@@ -129,7 +129,7 @@
     },
     {
       "projectID": 245755,
-      "fileID": 3830849,
+      "fileID": 4418740,
       "required": true,
       "__meta": {
         "name": "Waystones",
@@ -357,7 +357,7 @@
     },
     {
       "projectID": 363535,
-      "fileID": 4389837,
+      "fileID": 4411263,
       "required": true,
       "__meta": {
         "name": "EnderChests",
@@ -766,7 +766,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 4361371,
+      "fileID": 4418648,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)",
@@ -947,7 +947,7 @@
     },
     {
       "projectID": 688768,
-      "fileID": 4373326,
+      "fileID": 4414892,
       "required": true,
       "__meta": {
         "name": "Create Enchantment Industry",
