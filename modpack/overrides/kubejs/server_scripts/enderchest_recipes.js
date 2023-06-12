@@ -33,7 +33,7 @@ onEvent('recipes', event => {
         }
     );
 
-    let portalCoreIntermediate = 'kubejs:incomplete_portal_core';
+    /* let portalCoreIntermediate = 'kubejs:incomplete_portal_core';
     event.recipes.createSequencedAssembly(
         'kubejs:portal_core',
         'create:sturdy_sheet',
@@ -42,7 +42,135 @@ onEvent('recipes', event => {
             event.recipes.createDeploying(portalCoreIntermediate, [portalCoreIntermediate, 'kubejs:orange_portal_component']),
             event.recipes.createPressing(portalCoreIntermediate, portalCoreIntermediate)
         ]
-    ).transitionalItem(portalCoreIntermediate).loops(1);
+    ).transitionalItem(portalCoreIntermediate).loops(1); */
+
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: 'create:sturdy_sheet'
+        },
+        transitionalItem: {
+            item: 'kubejs:incomplete_portal_core'
+        },
+        sequence: [
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    },
+                    {
+                        item: 'kubejs:blue_portal_component'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    }
+                ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    },
+                    {
+                        item: 'kubejs:orange_portal_component'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    }
+                ]
+            },
+            {
+                type: 'create:pressing',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    }
+                ]
+            }
+        ],
+        results: [
+            {
+                item: "kubejs:portal_core",
+                chance: 100
+            }
+        ],
+        loops: 1
+    })
+
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: 'create:sturdy_sheet'
+        },
+        transitionalItem: {
+            item: 'kubejs:incomplete_portal_core'
+        },
+        sequence: [
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    },
+                    {
+                        item: 'kubejs:orange_portal_component'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    }
+                ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    },
+                    {
+                        item: 'kubejs:blue_portal_component'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    }
+                ]
+            },
+            {
+                type: 'create:pressing',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'kubejs:incomplete_portal_core'
+                    }
+                ]
+            }
+        ],
+        results: [
+            {
+                item: "kubejs:portal_core",
+                chance: 100
+            }
+        ],
+        loops: 1
+    })
 
     event.shaped(
         'enderchests:ender_chest',
