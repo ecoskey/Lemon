@@ -41,6 +41,18 @@
       }
     },
     {
+      "projectID": 227795,
+      "fileID": 4466171,
+      "required": true,
+      "__meta": {
+        "name": "Antique Atlas",
+        "dependencies": [
+          348521,
+          419699
+        ]
+      }
+    },
+    {
       "projectID": 228525,
       "fileID": 4556713,
       "required": true,
