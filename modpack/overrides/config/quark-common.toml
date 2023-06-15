@@ -1514,7 +1514,7 @@
 	"Spawner Replacer" = false
 	"Overlay Shader" = false
 	"Narrator Readout" = false
-	"Game Nerfs" = false
+	"Game Nerfs" = true
 	"Enchantments Begone" = false
 	"Adjustable Chat" = false
 
