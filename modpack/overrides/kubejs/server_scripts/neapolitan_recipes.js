@@ -16,4 +16,4 @@ onEvent('recipes', event => {
     );
 
     event.remove({ id: 'neapolitan:milk/milk_bucket_from_bottles' });
-})
+});
