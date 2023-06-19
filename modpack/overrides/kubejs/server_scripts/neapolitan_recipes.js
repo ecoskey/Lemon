@@ -4,16 +4,16 @@ onEvent('recipes', event => {
 
     //replace neapolitan chocolate w/ create chocolate
     event.replaceInput(
-        { input: 'neapolitan:chocolate_bar' },
-        'neapolitan:chocolate_bar',
-        'create:bar_of_chocolate'
+        { input: NP('chocolate_bar') },
+        NP('chocolate_bar'),
+        CR('bar_of_chocolate')
     );
 
     event.replaceOutput(
-        { output: 'neapolitan:chocolate_bar' },
-        'neapolitan:chocolate_bar',
-        'create:bar_of_chocolate'
+        { output: NP('chocolate_bar') },
+        NP('chocolate_bar'),
+        CR('bar_of_chocolate')
     );
 
-    event.remove({ id: 'neapolitan:milk/milk_bucket_from_bottles' });
+    event.remove({ id: NP('milk/milk_bucket_from_bottles') });
 });

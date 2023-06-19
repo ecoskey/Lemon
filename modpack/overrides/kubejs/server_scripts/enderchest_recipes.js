@@ -2,106 +2,106 @@ console.info('Modifying Enderchest recipes');
 
 onEvent('recipes', event => {
     // removing old recipes
-    event.remove({output: 'enderchests:ender_chest'});
-    event.remove({output: 'enderchests:ender_bag'});
+    event.remove({ output: EC('ender_chest') });
+    event.remove({ output: EC('ender_bag') });
 
     event.shaped(
-        'kubejs:blue_portal_component',
+        KJ('blue_portal_component'),
         [
             'DBD',
             'BPB',
             'DBD'
         ],
         {
-            D: 'minecraft:diamond',
-            B: 'minecraft:blue_dye',
-            P: 'minecraft:ender_pearl'
+            D: MC('diamond'),
+            B: MC('blue_dye'),
+            P: MC('ender_pearl')
         }
     );
 
     event.shaped(
-        'kubejs:orange_portal_component',
+        KJ('orange_portal_component'),
         [
             'DOD',
             'OPO',
             'DOD'
         ],
         {
-            D: 'minecraft:diamond',
-            O: 'minecraft:orange_dye',
-            P: 'minecraft:ender_pearl'
+            D: MC('diamond'),
+            O: MC('orange_dye'),
+            P: MC('ender_pearl')
         }
     );
 
-    /* let portalCoreIntermediate = 'kubejs:incomplete_portal_core';
+    /* let portalCoreIntermediate = KJ('incomplete_portal_core';
     event.recipes.createSequencedAssembly(
-        'kubejs:portal_core',
-        'create:sturdy_sheet',
+        KJ('portal_core',
+        CR('sturdy_sheet',
         [
-            event.recipes.createDeploying(portalCoreIntermediate, [portalCoreIntermediate, 'kubejs:blue_portal_component']),
-            event.recipes.createDeploying(portalCoreIntermediate, [portalCoreIntermediate, 'kubejs:orange_portal_component']),
+            event.recipes.createDeploying(portalCoreIntermediate, [portalCoreIntermediate, KJ('blue_portal_component']),
+            event.recipes.createDeploying(portalCoreIntermediate, [portalCoreIntermediate, KJ('orange_portal_component']),
             event.recipes.createPressing(portalCoreIntermediate, portalCoreIntermediate)
         ]
     ).transitionalItem(portalCoreIntermediate).loops(1); */
 
     event.custom({
-        type: 'create:sequenced_assembly',
+        type: CR('sequenced_assembly'),
         ingredient: {
-            item: 'create:sturdy_sheet'
+            item: CR('sturdy_sheet')
         },
         transitionalItem: {
-            item: 'kubejs:incomplete_portal_core'
+            item: KJ('incomplete_portal_core')
         },
         sequence: [
             {
-                type: 'create:deploying',
+                type: CR('deploying'),
                 ingredients: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     },
                     {
-                        item: 'kubejs:blue_portal_component'
+                        item: KJ('blue_portal_component')
                     }
                 ],
                 results: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     }
                 ]
             },
             {
-                type: 'create:deploying',
+                type: CR('deploying'),
                 ingredients: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     },
                     {
-                        item: 'kubejs:orange_portal_component'
+                        item: KJ('orange_portal_component')
                     }
                 ],
                 results: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     }
                 ]
             },
             {
-                type: 'create:pressing',
+                type: CR('pressing'),
                 ingredients: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     }
                 ],
                 results: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     }
                 ]
             }
         ],
         results: [
             {
-                item: "kubejs:portal_core",
+                item: KJ('portal_core'),
                 chance: 100
             }
         ],
@@ -109,63 +109,63 @@ onEvent('recipes', event => {
     })
 
     event.custom({
-        type: 'create:sequenced_assembly',
+        type: CR('sequenced_assembly'),
         ingredient: {
-            item: 'create:sturdy_sheet'
+            item: CR('sturdy_sheet')
         },
         transitionalItem: {
-            item: 'kubejs:incomplete_portal_core'
+            item: KJ('incomplete_portal_core')
         },
         sequence: [
             {
-                type: 'create:deploying',
+                type: CR('deploying'),
                 ingredients: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     },
                     {
-                        item: 'kubejs:orange_portal_component'
+                        item: KJ('orange_portal_component')
                     }
                 ],
                 results: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     }
                 ]
             },
             {
-                type: 'create:deploying',
+                type: CR('deploying'),
                 ingredients: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     },
                     {
-                        item: 'kubejs:blue_portal_component'
+                        item: KJ('blue_portal_component')
                     }
                 ],
                 results: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     }
                 ]
             },
             {
-                type: 'create:pressing',
+                type: CR('pressing'),
                 ingredients: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     }
                 ],
                 results: [
                     {
-                        item: 'kubejs:incomplete_portal_core'
+                        item: KJ('incomplete_portal_core')
                     }
                 ]
             }
         ],
         results: [
             {
-                item: "kubejs:portal_core",
+                item: 'kubejs:portal_core',
                 chance: 100
             }
         ],
@@ -173,33 +173,33 @@ onEvent('recipes', event => {
     })
 
     event.shaped(
-        'enderchests:ender_chest',
+        EC('ender_chest'),
         [
             'RWR',
             'OCO',
             'RNR'
         ],
         {
-            R: 'minecraft:blaze_rod',
+            R: MC('blaze_rod'),
             W: '#minecraft:wool',
-            O: 'minecraft:obsidian',
-            C: 'kubejs:portal_core',
-            N: 'minecraft:netherite_ingot'
+            O: MC('obsidian'),
+            C: KJ('portal_core'),
+            N: MC('netherite_ingot')
         }
     );
 
     event.shaped(
-        'enderchests:ender_bag',
+        EC('ender_bag'),
         [
             'RNR',
             ' C ',
             'RWR'
         ],
         {
-            R: 'minecraft:blaze_rod',
+            R: MC('blaze_rod'),
             W: '#minecraft:wool',
-            C: 'kubejs:portal_core',
-            N: 'minecraft:netherite_ingot'
+            C: KJ('portal_core'),
+            N: MC('netherite_ingot')
         }
     );
 })
