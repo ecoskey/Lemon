@@ -2,8 +2,8 @@ console.log('Adding melon slice recipes');
 
 onEvent('recipes', event => {
     event.shapeless(
-        Item.of(mc('melon_slice'), 6), 
-        [mc('melon')]
+        Item.of(MC('melon_slice'), 6), 
+        [MC('melon')]
     );
 
     event.custom({

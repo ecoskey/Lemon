@@ -1,1 +1,1 @@
-../../kubejs/util.js
+../util.js
