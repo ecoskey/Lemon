@@ -6,7 +6,7 @@ onEvent('recipes', event => {
     event.remove({ output: EC('ender_bag') });
 
     event.shaped(
-        KJ('blue_portal_component'),
+        Item.of(KJ('blue_portal_component'), 1),
         [
             'DBD',
             'BPB',
@@ -20,7 +20,7 @@ onEvent('recipes', event => {
     );
 
     event.shaped(
-        KJ('orange_portal_component'),
+        Item.of(KJ('orange_portal_component'), 1),
         [
             'DOD',
             'OPO',

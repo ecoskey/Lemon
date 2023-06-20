@@ -29,6 +29,6 @@ const waystoneIds = [
     'attuned_shard',
     'warp_dust',
     'warp_stone'
-].map(WS)
+]
 
-onEvent('jei.hide.items', event => waystoneIds.forEach(event.hide));
+onEvent('jei.hide.items', event => waystoneIds.forEach(id => event.hide(WS(id))));
