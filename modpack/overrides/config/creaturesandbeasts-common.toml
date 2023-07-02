@@ -476,7 +476,7 @@
 		spawnCategory = "monster"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 4
+		maxCount = 3
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -497,7 +497,7 @@
 		spawnCategory = "monster"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 4
+		maxCount = 3
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -515,10 +515,10 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "monster"
+		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 4
+		maxCount = 3
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -529,17 +529,17 @@
 		biome = "atmospheric:rainforest"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 40
+		spawnWeight = 15
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "monster"
+		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 4
+		maxCount = 3
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -550,17 +550,17 @@
 		biome = "atmospheric:sparse_rainforest"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 30
+		spawnWeight = 15
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "monster"
+		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 4
+		maxCount = 3
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -571,17 +571,17 @@
 		biome = "environmental:marsh"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 20
+		spawnWeight = 5
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "monster"
+		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 4
+		maxCount = 3
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -592,17 +592,17 @@
 		biome = "environmental:blossom_woods"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 40
+		spawnWeight = 20
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "monster"
+		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 8
+		maxCount = 6
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -613,17 +613,17 @@
 		biome = "environmental:blossom_valleys"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 30
+		spawnWeight = 15
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "monster"
+		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 6
+		maxCount = 4
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -634,17 +634,17 @@
 		biome = "autumnity:maple_forest"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 40
+		spawnWeight = 15
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "monster"
+		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 8
+		maxCount = 6
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -655,17 +655,17 @@
 		biome = "autumnity:pumpkin_fields"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 30
+		spawnWeight = 15
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "monster"
+		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 6
+		maxCount = 4
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -970,14 +970,14 @@
 		biome = "minecraft:badlands"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 15
+		spawnWeight = 10
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -991,14 +991,14 @@
 		biome = "minecraft:wooded_badlands"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 15
+		spawnWeight = 10
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1012,14 +1012,14 @@
 		biome = "minecraft:eroded_badlands"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 15
+		spawnWeight = 10
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1033,14 +1033,14 @@
 		biome = "minecraft:desert"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 15
+		spawnWeight = 10
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1061,7 +1061,7 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1082,7 +1082,7 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1096,14 +1096,14 @@
 		biome = "minecraft:sparse_jungle"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 100
+		spawnWeight = 80
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1124,7 +1124,7 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1145,7 +1145,7 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1166,7 +1166,7 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1187,7 +1187,7 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1208,7 +1208,7 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1229,7 +1229,7 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1250,7 +1250,7 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1271,7 +1271,7 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4
@@ -1292,7 +1292,7 @@
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
-		spawnCategory = "creature"
+		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
 		maxCount = 4

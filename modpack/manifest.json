@@ -516,6 +516,14 @@
       }
     },
     {
+      "projectID": 404183,
+      "fileID": 4321980,
+      "required": true,
+      "__meta": {
+        "name": "End Remastered"
+      }
+    },
+    {
       "projectID": 404465,
       "fileID": 4396792,
       "required": true,
@@ -605,7 +613,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4613821,
+      "fileID": 4619113,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
