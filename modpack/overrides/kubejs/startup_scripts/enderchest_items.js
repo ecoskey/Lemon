@@ -29,7 +29,12 @@ onEvent('item.registry', event => {
 
     event.create('graham_cracker')
         .texture(KJ('item/graham_cracker'))
-        .displayName('Graham Cracker');
+        .displayName('Graham Cracker')
+        .food(food => food
+            .hunger(3)
+            .saturation(1)
+            .fastToEat()
+        );
 
     event.create('bar_of_darkest_chocolate')
         .texture(KJ('item/bar_of_darkest_chocolate'))
