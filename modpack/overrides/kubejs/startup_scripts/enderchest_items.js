@@ -31,7 +31,7 @@ onEvent('item.registry', event => {
         .texture(KJ('item/graham_cracker'))
         .displayName('Graham Cracker')
         .food(food => food
-            .hunger(3)
+            .hunger(2)
             .saturation(1)
             .fastToEat()
         );
