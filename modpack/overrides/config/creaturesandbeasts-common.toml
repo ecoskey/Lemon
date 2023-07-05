@@ -130,7 +130,7 @@
 		biome = "minecraft:river"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 35
+		spawnWeight = 6
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
@@ -151,7 +151,7 @@
 		biome = "environmental:marsh"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 4
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
@@ -172,7 +172,7 @@
 		biome = "atmospheric:rainforest_basin"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 15
+		spawnWeight = 4
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
@@ -193,7 +193,7 @@
 		biome = "atmospheric:sparse_rainforest_basin"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 6
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
@@ -214,17 +214,17 @@
 		biome = "minecraft:badlands"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 3
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 6
 		#Determines the spawn cost for the entity.
-		mobCost = 0.0
+		mobCost = 10.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 13
+		maxCount = 6
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -235,17 +235,17 @@
 		biome = "minecraft:wooded_badlands"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 3
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 6
 		#Determines the spawn cost for the entity.
-		mobCost = 0.0
+		mobCost = 10.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "ambient"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 13
+		maxCount = 6
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -256,17 +256,17 @@
 		biome = "minecraft:eroded_badlands"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 3
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 6
 		#Determines the spawn cost for the entity.
-		mobCost = 0.0
+		mobCost = 10.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 13
+		maxCount = 6
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -277,17 +277,17 @@
 		biome = "minecraft:desert"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 3
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 6
 		#Determines the spawn cost for the entity.
-		mobCost = 0.0
+		mobCost = 10.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 13
+		maxCount = 6
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -298,17 +298,17 @@
 		biome = "atmospheric:dunes"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 3
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
-		minCount = 6
+		minCount = 3
 		#Determines the spawn cost for the entity.
-		mobCost = 0.0
+		mobCost = 10.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 13
+		maxCount = 6
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -319,17 +319,17 @@
 		biome = "atmospheric:flourishing_dunes"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 8
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 8
 		#Determines the spawn cost for the entity.
-		mobCost = 0.0
+		mobCost = 10.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 20
+		maxCount = 8
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -343,9 +343,9 @@
 		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
-		minCount = 4
+		minCount = 2
 		#Determines the spawn cost for the entity.
-		mobCost = 0.0
+		mobCost = 10.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
@@ -364,9 +364,9 @@
 		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
-		minCount = 4
+		minCount = 2
 		#Determines the spawn cost for the entity.
-		mobCost = 0.0
+		mobCost = 10.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
@@ -655,7 +655,7 @@
 		biome = "autumnity:pumpkin_fields"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 2
+		spawnWeight = 4
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
@@ -676,7 +676,7 @@
 		biome = "minecraft:swamp"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 15
+		spawnWeight = 4
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -697,7 +697,7 @@
 		biome = "environmental:marsh"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 15
+		spawnWeight = 4
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -739,7 +739,7 @@
 		biome = "atmospheric:sparse_rainforest_basin"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 6
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
@@ -760,7 +760,7 @@
 		biome = "minecraft:swamp"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 6
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 3
@@ -781,7 +781,7 @@
 		biome = "environmental:marsh"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 6
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 3
@@ -802,7 +802,7 @@
 		biome = "atmospheric:rainforest_basin"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 6
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 4
@@ -823,7 +823,7 @@
 		biome = "atmospheric:sparse_rainforest_basin"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 6
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 4
@@ -949,7 +949,7 @@
 		biome = "minecraft:nether_wastes"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 400
+		spawnWeight = 20
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 2
@@ -970,7 +970,7 @@
 		biome = "minecraft:badlands"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -991,7 +991,7 @@
 		biome = "minecraft:wooded_badlands"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 3
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1012,7 +1012,7 @@
 		biome = "minecraft:eroded_badlands"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1033,7 +1033,7 @@
 		biome = "minecraft:desert"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1054,7 +1054,7 @@
 		biome = "minecraft:jungle"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 100
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1075,7 +1075,7 @@
 		biome = "minecraft:bamboo_jungle"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1096,7 +1096,7 @@
 		biome = "minecraft:sparse_jungle"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 20
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1117,7 +1117,7 @@
 		biome = "minecraft:mushroom_fields"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 10
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1138,7 +1138,7 @@
 		biome = "environmental:blossom_woods"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 20
+		spawnWeight = 4
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1159,7 +1159,7 @@
 		biome = "environmental:blossom_valleys"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 20
+		spawnWeight = 4
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1180,7 +1180,7 @@
 		biome = "atmospheric:rainforest"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 20
+		spawnWeight = 4
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1201,7 +1201,7 @@
 		biome = "atmospheric:sparse_rainforest"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 30
+		spawnWeight = 4
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1222,7 +1222,7 @@
 		biome = "atmospheric:dunes"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 15
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1243,7 +1243,7 @@
 		biome = "atmospheric:flourishing_dunes"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 25
+		spawnWeight = 4
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1264,7 +1264,7 @@
 		biome = "atmospheric:rocky_dunes"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 15
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
@@ -1285,7 +1285,7 @@
 		biome = "atmospheric:petrified_dunes"
 		#Determines the spawn weight of the entity.
 		# Range: [0, 1000000]
-		spawnWeight = 15
+		spawnWeight = 2
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
 		minCount = 1
