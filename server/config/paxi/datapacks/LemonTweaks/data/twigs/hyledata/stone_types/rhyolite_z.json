@@ -1,0 +1,30 @@
+{
+    "base": {
+      "Name": "twigs:rhyolite",
+      "Properties": {
+        "axis": "z"
+      }
+    },
+    "dirt": {
+      "Name": "twigs:rhyolite",
+      "Properties": {
+        "axis": "z"
+      }
+    },
+    "grass": {
+      "Name": "twigs:rhyolite",
+      "Properties": {
+        "axis": "z"
+      }
+    },
+    "ores": {
+      "minecraft:iron_ore": "twigs:rhyolite",
+      "minecraft:coal_ore": "twigs:rhyolite",
+      "minecraft:copper_ore": "twigs:rhyolite",
+      "minecraft:gold_ore": "twigs:rhyolite",
+      "minecraft:lapis_ore": "twigs:rhyolite",
+      "minecraft:redstone_ore": "twigs:rhyolite",
+      "minecraft:diamond_ore": "twigs:rhyolite",
+      "minecraft:emerald_ore": "twigs:rhyolite"
+    }
+  }

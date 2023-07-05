@@ -1,0 +1,16 @@
+{
+    "values": [
+        "environmental:stripped_cherry_log",
+        "environmental:stripped_willow_log",
+        "environmental:stripped_wisteria_log",
+        "upgrade_aquatic:stripped_driftwood_log",
+        "upgrade_aquatic:stripped_river_log",
+        "atmospheric:stripped_rosewood_log",
+        "atmospheric:stripped_morado_log",
+        "atmospheric:stripped_yucca_log",
+        "atmospheric:stripped_kousa_log",
+        "atmospheric:stripped_aspen_log",
+        "atmospheric:stripped_grimwood_log",
+        "atmospheric:stripped_maple_log"
+    ]
+}

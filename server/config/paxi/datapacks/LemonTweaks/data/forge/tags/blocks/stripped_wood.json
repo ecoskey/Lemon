@@ -1,0 +1,16 @@
+{
+    "values": [
+        "environmental:stripped_cherry_wood",
+        "environmental:stripped_willow_wood",
+        "environmental:stripped_wisteria_wood",
+        "upgrade_aquatic:stripped_driftwood_wood",
+        "upgrade_aquatic:stripped_river_wood",
+        "atmospheric:stripped_rosewood_wood",
+        "atmospheric:stripped_morado_wood",
+        "atmospheric:stripped_yucca_wood",
+        "atmospheric:stripped_kousa_wood",
+        "atmospheric:stripped_aspen_wood",
+        "atmospheric:stripped_grimwood_wood",
+        "atmospheric:stripped_maple_wood"
+    ]
+}
