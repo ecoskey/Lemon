@@ -16,4 +16,5 @@ onEvent('recipes', event => {
     );
 
     event.remove({ id: NP('milk/milk_bucket_from_bottles') });
+    event.remove({ id: NP('chocolate/chocolate_bar') })
 });
