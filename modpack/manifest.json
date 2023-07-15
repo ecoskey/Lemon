@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "forge-40.2.9",
+        "id": "forge-40.2.10",
         "primary": true
       }
     ]
@@ -298,7 +298,7 @@
     },
     {
       "projectID": 348521,
-      "fileID": 3972426,
+      "fileID": 4633387,
       "required": true,
       "__meta": {
         "name": "Cloth Config API (Fabric/Forge)"
@@ -584,17 +584,6 @@
       "required": true,
       "__meta": {
         "name": "Skinned Lanterns (Forge)"
-      }
-    },
-    {
-      "projectID": 414401,
-      "fileID": 4556105,
-      "required": true,
-      "__meta": {
-        "name": "Creatures and Beasts",
-        "dependencies": [
-          388172
-        ]
       }
     },
     {
